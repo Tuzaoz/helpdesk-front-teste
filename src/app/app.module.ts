@@ -26,6 +26,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 //componentes do projeto
 import { NavComponent } from './components/nav/nav.component';
+import {RouterOutlet} from "@angular/router";
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -55,7 +57,9 @@ import { NavComponent } from './components/nav/nav.component';
     MatTableModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    RouterOutlet,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
